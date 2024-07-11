@@ -403,6 +403,14 @@
     font-weight: 300;
 }
 
+.contact .contenidos h3{
+    margin-top: 0;
+    padding: 0;
+    color: var(--color1);
+    font-size: 900%;
+    font-weight:900;
+}
+
 
 .contact .contenido{
     border: 10px groove var(--color2);
@@ -434,7 +442,7 @@
 
 .contact .contenido button{
     border: 0;
-    margin: 1% 0 0 6%;
+    margin: 3% 0 0 6%;
     width: 17%;
     height: 50px;
     background-color: var(--color1);
@@ -442,4 +450,23 @@
     color: var(--color5);
     font-size: 115%;
     font-weight: 400;
+}
+
+@media (max-width:440px){
+
+    .home{
+        padding: 7% 0;
+        background-color: var(--color2);
+        display: block
+        width: 150%;
+        height: 100vh;
+        color: var(--color2);
+    }
+
+    .menu img {
+        width: 30%;
+        margin-left: 60%;
+        border-radius: 40px;
+    }
+
 }
